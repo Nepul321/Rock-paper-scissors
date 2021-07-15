@@ -18,7 +18,7 @@ const random = ["Rock",
 
 const comment = document.getElementById("comment")
 let number = random[Math.floor(Math.random() * random.length)]
-const para2 = "Rock Paper Scissors"
+const para2 = "Rock Paper Scissors!!!"
 let index = 0;
 
 

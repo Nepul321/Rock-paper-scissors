@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+
+
+span {
+    font-size: 35px;
+}
+
+#game {
+    height: 430px;
+    width: 500px;
+    border: 2px solid black;
+    margin-top: 40px;
+}
+
+#score {
+    margin-top: 25px;
+    border: 2px solid black;
+}
+
+#score1 {
+    color: green;
+}
+
+#score2 {
+    color: red;
+}
+
+
+
+#container {
+    display: none;
+}
+
+#intro {
+    width: auto;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+button:hover {
+    transition: all 0.7s linear;
+    box-shadow: 0 8px 16px 0 rgba(65, 58, 63, 0.2);
+}
+
+#wl {
+    display: none;
+    width: auto;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+button {
+    transition: all 0.7s linear;
+}
+
+#rock {
+    background-image: url("/images/Rock.png");
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center center;
+    outline: none;
+    border: none;
+    overflow: hidden;
+}
+
+#paper {
+    background-image: url("/images/Paper.png");
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center center;
+    outline: none;
+    border: none;
+    overflow: hidden;
+}
+
+#scissor {
+    background-image: url("/images/scissors.png");
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center center;
+    outline: none;
+    border: none;
+    overflow: hidden;
+}

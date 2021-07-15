@@ -76,7 +76,7 @@ button {
 }
 
 #rock {
-    background-image: url("/images/Rock.png");
+    background-image: url("https://res.cloudinary.com/dhlqqrm9f/image/upload/v1626381105/Rock%20paper%20scissors%20Javascript/images/Rock_dmiijj.png");
     height: 200px;
     width: 200px;
     border-radius: 50%;
@@ -88,7 +88,7 @@ button {
 }
 
 #paper {
-    background-image: url("/images/Paper.png");
+    background-image: url("https://res.cloudinary.com/dhlqqrm9f/image/upload/v1626381106/Rock%20paper%20scissors%20Javascript/images/Paper_r1pkfn.png");
     height: 200px;
     width: 200px;
     border-radius: 50%;
@@ -100,7 +100,7 @@ button {
 }
 
 #scissor {
-    background-image: url("/images/scissors.png");
+    background-image: url("https://res.cloudinary.com/dhlqqrm9f/image/upload/v1626381105/Rock%20paper%20scissors%20Javascript/images/scissors_piwhal.png");
     height: 200px;
     width: 200px;
     border-radius: 50%;
